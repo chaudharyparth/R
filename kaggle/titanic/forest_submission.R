@@ -5,9 +5,7 @@ test <- read.csv("test.csv")
 
 # Install and load required packages for decision trees and forests
 library(rpart)
-install.packages('randomForest')
 library(randomForest)
-install.packages('party')
 library(party)
 
 # Join together the test and train sets for easier feature engineering
