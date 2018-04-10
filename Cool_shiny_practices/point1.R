@@ -1,3 +1,5 @@
+# check + load for package availablity in R
+
 packages <- c("shiny", "shinythemes", "DT", "data.table")
 
 pkgs_check <- function(pkg){
@@ -9,4 +11,5 @@ pkgs_check <- function(pkg){
 
 pkgs_check(packages)
 
+# increase file upload size for shiny::fileInput()
 options(shiny.maxRequestSize=30*1024^2) 
